@@ -15,8 +15,7 @@ void displaySquare(int, int);
 
 //****************************************************************************************************
 
-int main()
-{
+int main() {
     int exp,
         square;
 
@@ -24,14 +23,10 @@ int main()
     square = findSquare(exp);
     displaySquare(exp, square);
 
-
-
-return 0;
-
+    return 0;
 }
 
-int readInput()
-{
+int readInput() {
     int exponent;
 
     cout << "Enter the base you want to find the square of ";
@@ -40,16 +35,14 @@ int readInput()
     return exponent;
 }
 
-int findSquare(int exp)
-{
+int findSquare(int exp) {
     int square;
     square = exp * exp;
 
     return square;
 }
 
-void displaySquare(int exp, int square)
-{
+void displaySquare(int exp, int square) {
     cout << "The square of " << exp << " is " << square << "." << endl;
 }
 
@@ -126,7 +119,7 @@ int main()
     {
     int inputNum;
 
-    cout << "Enter a number: "; 
+    cout << "Enter a number: ";
     cin >> inputNum;
 
     cout << endl;
@@ -199,7 +192,7 @@ int main()
     do
     {
 
-        cout << "Family waiting.." << endl; 
+        cout << "Family waiting.." << endl;
 
         nicksTime++;
 
@@ -219,7 +212,7 @@ int main()
     }
 
 
-	return 0;
+        return 0;
 
     //****************************************************************************************************
     //****************************************************************************************************
@@ -234,7 +227,7 @@ int main()
     do
     {
 
-        cout << "Family waiting.." << endl; 
+        cout << "Family waiting.." << endl;
 
         nicksTime++;
 
@@ -254,5 +247,5 @@ int main()
     }
 
 
-	return 0;
+        return 0;
 */
