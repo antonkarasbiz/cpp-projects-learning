@@ -1,11 +1,10 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b2686d21dc134cd2ae07194660b2f0b0)](https://app.codacy.com/gh/nragland37/cpp-projects/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/nragland37/cpp-projects/blob/main/LICENSE)
+# C++ projects and data structures
 
-# <p align="center"> Hello, World! 🦖 </p>
+Structured collection of C++ exercises covering introductory programming through graphs, heaps, and AVL trees. Kept in the [antonkarasbiz](https://github.com/antonkarasbiz) workspace as fundamentals material alongside the full-stack, blockchain, and AI product repositories.
 
-/*
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-This is a comprehensive collection of C++ projects, covering a wide range of topics from the basic `Hello World` to advanced `Self-Balancing AVL Trees`, and everything in between.
+The catalog moves from `Hello World` through file streams, templates, and classic data structures. Multi-file projects under Data Structures II include a Makefile.
 
 <br>
 
@@ -28,9 +27,6 @@ make run
 ```bash
 make clean
 ```
-
-*/
-
 
 ### [Programming I](/programming-I)
 * [Documents](programming-I/docs/)
